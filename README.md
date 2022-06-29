@@ -1,3 +1,1 @@
-
-
-**Coming soon...**
+This is the repository for our paper entitled "Nonlinear Regression of Remaining Surgical Duration via Bayesian LSTM-based Deep Negative Correlation Learning", which was already acceped in MICCAI 2022. We will release our implementation soon.
