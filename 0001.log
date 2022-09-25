@@ -1,0 +1,338 @@
+nohup: 忽略输入
+4
+use multi GPU
+collect dataset
+number of sequences: train 66, val 14
+ start training... 
+train_rnn
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/270/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/271/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/278/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/279/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/280/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/294/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/295/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/354/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/734/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/739/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/745/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/749/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/750/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/751/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/760/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/764/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/768/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/778/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/781/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/784/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/788/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/796/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/797/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/799/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/801/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/802/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/807/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/808/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/809/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/810/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/817/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/825/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/827/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/828/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/829/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/835/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/840/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/841/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/845/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/846/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/847/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/849/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/850/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/856/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/863/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/865/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/866/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/867/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/868/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/882/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/883/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/884/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/886/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/887/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/891/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/892/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/895/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/896/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/898/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/906/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/907/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/922/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/925/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/926/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/928/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/train/932/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/269/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/292/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/350/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/356/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/738/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/771/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/786/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/806/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/834/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/855/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/880/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/890/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/902/
+/media/gdp/date/wjy/catanet-main222/catanet-main/final_data/val/931/
+16m 0s (- 783m 59s) ([1/50] 2%), train loss1: 3.2930 val loss1: 2.1589 val origin loss 1:2.7691 avg_origin_rsd_loss: 1.7033 NCL loss1: 0.1423 lp: 1.1643 le: 0.5095 val precision: 0.7999, recall: 0.8022, f1: 0.7845, acc_exp: 0.6556  **
+  **
+  **
+  **
+  **
+21m 25s (- 514m 4s) ([2/50] 4%), train loss1: 1.7066 val loss1: 1.6765 val origin loss 1:2.0357 avg_origin_rsd_loss: 1.3348 NCL loss1: 0.1612 lp: 0.6881 le: 0.4019 val precision: 0.8299, recall: 0.8221, f1: 0.8146, acc_exp: 0.8096  **
+  **
+  **
+  **
+  **
+26m 49s (- 420m 9s) ([3/50] 6%), train loss1: 1.3442 val loss1: 1.4995 val origin loss 1:1.9026 avg_origin_rsd_loss: 1.2489 NCL loss1: 0.1915 lp: 0.5090 le: 0.3607 val precision: 0.8123, recall: 0.8374, f1: 0.8179, acc_exp: 0.7951  **
+  **
+  **
+  **
+  **
+32m 11s (- 370m 12s) ([4/50] 8%), train loss1: 1.1702 val loss1: 1.3415 val origin loss 1:1.6520 avg_origin_rsd_loss: 1.0863 NCL loss1: 0.2611 lp: 0.4640 le: 0.3198 val precision: 0.8389, recall: 0.8464, f1: 0.8373, acc_exp: 0.8379  **
+
+  **
+  **
+  **
+37m 34s (- 338m 10s) ([5/50] 10%), train loss1: 1.0425 val loss1: 1.3742 val origin loss 1:1.6819 avg_origin_rsd_loss: 1.1000 NCL loss1: 0.2029 lp: 0.4781 le: 0.3373 val precision: 0.8500, recall: 0.8373, f1: 0.8322, acc_exp: 0.8095
+
+
+  **
+
+42m 56s (- 314m 54s) ([6/50] 12%), train loss1: 0.9331 val loss1: 1.2533 val origin loss 1:1.5659 avg_origin_rsd_loss: 1.0397 NCL loss1: 0.2353 lp: 0.4339 le: 0.2188 val precision: 0.8449, recall: 0.8455, f1: 0.8396, acc_exp: 0.9177  **
+  **
+  **
+  **
+  **
+48m 18s (- 296m 46s) ([7/50] 14%), train loss1: 0.9277 val loss1: 1.2194 val origin loss 1:1.4858 avg_origin_rsd_loss: 0.9955 NCL loss1: 0.2258 lp: 0.3912 le: 0.2367 val precision: 0.8290, recall: 0.8364, f1: 0.8267, acc_exp: 0.8883  **
+  **
+  **
+  **
+
+53m 40s (- 281m 45s) ([8/50] 16%), train loss1: 0.9253 val loss1: 1.2731 val origin loss 1:1.5206 avg_origin_rsd_loss: 0.9725 NCL loss1: 0.2356 lp: 0.4088 le: 0.2060 val precision: 0.8586, recall: 0.8564, f1: 0.8520, acc_exp: 0.9015
+
+  **
+  **
+  **
+59m 1s (- 268m 53s) ([9/50] 18%), train loss1: 0.8408 val loss1: 1.2300 val origin loss 1:1.4486 avg_origin_rsd_loss: 0.9573 NCL loss1: 0.2146 lp: 0.3537 le: 0.2126 val precision: 0.8373, recall: 0.8539, f1: 0.8412, acc_exp: 0.9048
+  **
+
+  **
+
+64m 25s (- 257m 41s) ([10/50] 20%), train loss1: 0.7511 val loss1: 1.1798 val origin loss 1:1.4315 avg_origin_rsd_loss: 0.9659 NCL loss1: 0.1937 lp: 0.3822 le: 0.2881 val precision: 0.8480, recall: 0.8511, f1: 0.8449, acc_exp: 0.8332  **
+
+
+
+
+69m 45s (- 247m 17s) ([11/50] 22%), train loss1: 0.7408 val loss1: 1.1398 val origin loss 1:1.3824 avg_origin_rsd_loss: 0.8991 NCL loss1: 0.2317 lp: 0.3721 le: 0.2248 val precision: 0.8527, recall: 0.8594, f1: 0.8516, acc_exp: 0.8922  **
+
+  **
+
+  **
+75m 6s (- 237m 50s) ([12/50] 24%), train loss1: 0.7021 val loss1: 1.2664 val origin loss 1:1.4681 avg_origin_rsd_loss: 0.9528 NCL loss1: 0.2299 lp: 0.3855 le: 0.3032 val precision: 0.8669, recall: 0.8597, f1: 0.8579, acc_exp: 0.8289
+
+
+
+
+80m 29s (- 229m 3s) ([13/50] 26%), train loss1: 0.7141 val loss1: 1.6030 val origin loss 1:1.6928 avg_origin_rsd_loss: 0.9685 NCL loss1: 0.2304 lp: 0.3914 le: 0.3021 val precision: 0.8626, recall: 0.8652, f1: 0.8583, acc_exp: 0.8235
+
+
+
+
+85m 49s (- 220m 40s) ([14/50] 28%), train loss1: 0.6696 val loss1: 1.3331 val origin loss 1:1.4681 avg_origin_rsd_loss: 0.9374 NCL loss1: 0.2209 lp: 0.3754 le: 0.3542 val precision: 0.8742, recall: 0.8685, f1: 0.8658, acc_exp: 0.7882
+
+
+
+
+91m 12s (- 212m 49s) ([15/50] 30%), train loss1: 0.6618 val loss1: 1.3547 val origin loss 1:1.5091 avg_origin_rsd_loss: 0.8805 NCL loss1: 0.2271 lp: 0.3994 le: 0.2722 val precision: 0.8695, recall: 0.8634, f1: 0.8609, acc_exp: 0.8373
+
+
+  **
+
+96m 36s (- 205m 16s) ([16/50] 32%), train loss1: 0.6896 val loss1: 1.3870 val origin loss 1:1.4977 avg_origin_rsd_loss: 0.9106 NCL loss1: 0.2731 lp: 0.3665 le: 0.1808 val precision: 0.8710, recall: 0.8676, f1: 0.8655, acc_exp: 0.9181
+
+
+
+
+101m 57s (- 197m 54s) ([17/50] 34%), train loss1: 0.6458 val loss1: 1.3725 val origin loss 1:1.5262 avg_origin_rsd_loss: 0.8518 NCL loss1: 0.2349 lp: 0.4110 le: 0.2660 val precision: 0.8688, recall: 0.8632, f1: 0.8592, acc_exp: 0.8501
+  **
+
+
+
+107m 20s (- 190m 49s) ([18/50] 36%), train loss1: 0.6360 val loss1: 1.2898 val origin loss 1:1.4423 avg_origin_rsd_loss: 0.8352 NCL loss1: 0.2613 lp: 0.3658 le: 0.2168 val precision: 0.8634, recall: 0.8629, f1: 0.8578, acc_exp: 0.8708
+  **
+
+  **
+  **
+112m 42s (- 183m 53s) ([19/50] 38%), train loss1: 0.5813 val loss1: 1.4647 val origin loss 1:1.5210 avg_origin_rsd_loss: 0.8965 NCL loss1: 0.2894 lp: 0.4463 le: 0.2625 val precision: 0.8679, recall: 0.8504, f1: 0.8506, acc_exp: 0.8634
+
+
+
+
+118m 8s (- 177m 12s) ([20/50] 40%), train loss1: 0.6715 val loss1: 1.2679 val origin loss 1:1.4656 avg_origin_rsd_loss: 0.8666 NCL loss1: 0.2653 lp: 0.4045 le: 0.2557 val precision: 0.8767, recall: 0.8678, f1: 0.8658, acc_exp: 0.8561
+
+
+
+
+123m 33s (- 170m 37s) ([21/50] 42%), train loss1: 0.5644 val loss1: 1.7328 val origin loss 1:1.6437 avg_origin_rsd_loss: 0.8658 NCL loss1: 0.3208 lp: 0.3958 le: 0.2513 val precision: 0.8676, recall: 0.8553, f1: 0.8556, acc_exp: 0.8639
+
+
+
+  **
+128m 59s (- 164m 9s) ([22/50] 44%), train loss1: 0.5835 val loss1: 1.3599 val origin loss 1:1.4676 avg_origin_rsd_loss: 0.8298 NCL loss1: 0.2575 lp: 0.4285 le: 0.2496 val precision: 0.8696, recall: 0.8549, f1: 0.8540, acc_exp: 0.8799
+
+
+
+
+134m 23s (- 157m 45s) ([23/50] 46%), train loss1: 0.4914 val loss1: 1.3754 val origin loss 1:1.4160 avg_origin_rsd_loss: 0.8339 NCL loss1: 0.2892 lp: 0.4183 le: 0.2567 val precision: 0.8757, recall: 0.8659, f1: 0.8642, acc_exp: 0.8679
+
+
+
+
+139m 48s (- 151m 27s) ([24/50] 48%), train loss1: 0.4997 val loss1: 1.3241 val origin loss 1:1.3971 avg_origin_rsd_loss: 0.8000 NCL loss1: 0.2873 lp: 0.4181 le: 0.2253 val precision: 0.8803, recall: 0.8670, f1: 0.8673, acc_exp: 0.8869
+
+
+
+
+145m 14s (- 145m 13s) ([25/50] 50%), train loss1: 0.4705 val loss1: 1.4474 val origin loss 1:1.4801 avg_origin_rsd_loss: 0.8304 NCL loss1: 0.3271 lp: 0.3885 le: 0.2503 val precision: 0.8823, recall: 0.8776, f1: 0.8754, acc_exp: 0.8695
+
+
+
+
+150m 40s (- 139m 4s) ([26/50] 52%), train loss1: 0.5520 val loss1: 1.3245 val origin loss 1:1.4922 avg_origin_rsd_loss: 0.7808 NCL loss1: 0.2831 lp: 0.4244 le: 0.2168 val precision: 0.8754, recall: 0.8640, f1: 0.8628, acc_exp: 0.9040
+
+
+
+
+156m 7s (- 132m 59s) ([27/50] 54%), train loss1: 0.5413 val loss1: 1.3557 val origin loss 1:1.5046 avg_origin_rsd_loss: 0.8798 NCL loss1: 0.2103 lp: 0.4230 le: 0.4313 val precision: 0.8722, recall: 0.8610, f1: 0.8592, acc_exp: 0.7855
+
+
+
+
+161m 30s (- 126m 53s) ([28/50] 56%), train loss1: 0.5215 val loss1: 1.4947 val origin loss 1:1.6095 avg_origin_rsd_loss: 0.8955 NCL loss1: 0.3509 lp: 0.4310 le: 0.1841 val precision: 0.8821, recall: 0.8630, f1: 0.8650, acc_exp: 0.9164
+
+
+
+
+166m 55s (- 120m 52s) ([29/50] 57%), train loss1: 0.4784 val loss1: 1.3455 val origin loss 1:1.4229 avg_origin_rsd_loss: 0.7794 NCL loss1: 0.2700 lp: 0.3663 le: 0.2291 val precision: 0.8794, recall: 0.8737, f1: 0.8721, acc_exp: 0.8910
+
+
+
+
+172m 23s (- 114m 55s) ([30/50] 60%), train loss1: 0.4716 val loss1: 1.8639 val origin loss 1:1.7524 avg_origin_rsd_loss: 0.8586 NCL loss1: 0.3602 lp: 0.4031 le: 0.2990 val precision: 0.8762, recall: 0.8574, f1: 0.8579, acc_exp: 0.8363
+
+
+
+
+177m 51s (- 109m 0s) ([31/50] 62%), train loss1: 0.4186 val loss1: 1.5117 val origin loss 1:1.6051 avg_origin_rsd_loss: 0.7994 NCL loss1: 0.4271 lp: 0.4253 le: 0.2062 val precision: 0.8815, recall: 0.8602, f1: 0.8621, acc_exp: 0.8925
+
+
+
+
+183m 16s (- 103m 5s) ([32/50] 64%), train loss1: 0.3892 val loss1: 1.5042 val origin loss 1:1.5954 avg_origin_rsd_loss: 0.8151 NCL loss1: 0.3670 lp: 0.4396 le: 0.2070 val precision: 0.8807, recall: 0.8620, f1: 0.8640, acc_exp: 0.8822
+
+
+
+
+188m 40s (- 97m 11s) ([33/50] 66%), train loss1: 0.3455 val loss1: 1.3195 val origin loss 1:1.4502 avg_origin_rsd_loss: 0.8191 NCL loss1: 0.2716 lp: 0.4047 le: 0.1719 val precision: 0.8863, recall: 0.8722, f1: 0.8728, acc_exp: 0.9218
+
+
+  **
+
+194m 4s (- 91m 19s) ([34/50] 68%), train loss1: 0.4551 val loss1: 1.5034 val origin loss 1:1.4378 avg_origin_rsd_loss: 0.8402 NCL loss1: 0.2631 lp: 0.3828 le: 0.3426 val precision: 0.8791, recall: 0.8718, f1: 0.8707, acc_exp: 0.8335
+
+
+
+
+199m 28s (- 85m 29s) ([35/50] 70%), train loss1: 0.3850 val loss1: 1.4061 val origin loss 1:1.5519 avg_origin_rsd_loss: 0.8447 NCL loss1: 0.2930 lp: 0.3864 le: 0.2216 val precision: 0.8865, recall: 0.8705, f1: 0.8729, acc_exp: 0.9030
+
+
+
+
+204m 51s (- 79m 39s) ([36/50] 72%), train loss1: 0.3791 val loss1: 1.5777 val origin loss 1:1.5769 avg_origin_rsd_loss: 0.8211 NCL loss1: 0.2940 lp: 0.4276 le: 0.2028 val precision: 0.8779, recall: 0.8555, f1: 0.8579, acc_exp: 0.9030
+
+
+
+
+210m 16s (- 73m 52s) ([37/50] 74%), train loss1: 0.4067 val loss1: 1.5075 val origin loss 1:1.4709 avg_origin_rsd_loss: 0.8570 NCL loss1: 0.3040 lp: 0.3541 le: 0.1995 val precision: 0.8803, recall: 0.8746, f1: 0.8727, acc_exp: 0.9149
+
+
+
+
+215m 41s (- 68m 6s) ([38/50] 76%), train loss1: 0.3390 val loss1: 1.8656 val origin loss 1:1.5824 avg_origin_rsd_loss: 0.8794 NCL loss1: 0.3361 lp: 0.3998 le: 0.1947 val precision: 0.8834, recall: 0.8686, f1: 0.8697, acc_exp: 0.9053
+
+
+
+
+221m 6s (- 62m 21s) ([39/50] 78%), train loss1: 0.3781 val loss1: 1.5301 val origin loss 1:1.5213 avg_origin_rsd_loss: 0.8351 NCL loss1: 0.3276 lp: 0.4309 le: 0.1651 val precision: 0.8816, recall: 0.8579, f1: 0.8621, acc_exp: 0.9263
+
+
+
+
+226m 34s (- 56m 38s) ([40/50] 80%), train loss1: 0.2891 val loss1: 1.6543 val origin loss 1:1.5180 avg_origin_rsd_loss: 0.8431 NCL loss1: 0.3214 lp: 0.3820 le: 0.2169 val precision: 0.8841, recall: 0.8721, f1: 0.8730, acc_exp: 0.9173
+
+  **
+
+
+232m 0s (- 50m 55s) ([41/50] 82%), train loss1: 0.2674 val loss1: 1.3906 val origin loss 1:1.4923 avg_origin_rsd_loss: 0.8320 NCL loss1: 0.3091 lp: 0.4128 le: 0.1727 val precision: 0.8798, recall: 0.8599, f1: 0.8608, acc_exp: 0.9329
+
+
+  **
+
+237m 27s (- 45m 13s) ([42/50] 84%), train loss1: 0.2694 val loss1: 1.6250 val origin loss 1:1.4468 avg_origin_rsd_loss: 0.8623 NCL loss1: 0.3257 lp: 0.3650 le: 0.1397 val precision: 0.8795, recall: 0.8676, f1: 0.8674, acc_exp: 0.9469
+
+
+  **
+
+242m 51s (- 39m 31s) ([43/50] 86%), train loss1: 0.2503 val loss1: 1.6586 val origin loss 1:1.6222 avg_origin_rsd_loss: 0.8529 NCL loss1: 0.4561 lp: 0.4061 le: 0.1745 val precision: 0.8821, recall: 0.8651, f1: 0.8659, acc_exp: 0.9192
+
+
+
+
+248m 16s (- 33m 51s) ([44/50] 88%), train loss1: 0.2560 val loss1: 1.7488 val origin loss 1:1.6031 avg_origin_rsd_loss: 0.8454 NCL loss1: 0.4670 lp: 0.4312 le: 0.1959 val precision: 0.8829, recall: 0.8584, f1: 0.8608, acc_exp: 0.9115
+
+
+
+
+253m 37s (- 28m 10s) ([45/50] 90%), train loss1: 0.2753 val loss1: 1.6043 val origin loss 1:1.5599 avg_origin_rsd_loss: 0.8603 NCL loss1: 0.3339 lp: 0.4153 le: 0.1261 val precision: 0.8826, recall: 0.8610, f1: 0.8636, acc_exp: 0.9474
+
+
+
+
+259m 0s (- 22m 31s) ([46/50] 92%), train loss1: 0.2324 val loss1: 1.6476 val origin loss 1:1.5761 avg_origin_rsd_loss: 0.8406 NCL loss1: 0.3180 lp: 0.4149 le: 0.1690 val precision: 0.8823, recall: 0.8660, f1: 0.8676, acc_exp: 0.9160
+
+
+
+
+264m 23s (- 16m 52s) ([47/50] 94%), train loss1: 0.2409 val loss1: 1.8980 val origin loss 1:1.6550 avg_origin_rsd_loss: 0.8168 NCL loss1: 0.3205 lp: 0.4400 le: 0.1772 val precision: 0.8876, recall: 0.8653, f1: 0.8681, acc_exp: 0.9130
+
+
+
+
+269m 47s (- 11m 14s) ([48/50] 96%), train loss1: 0.2234 val loss1: 1.6654 val origin loss 1:1.6734 avg_origin_rsd_loss: 0.8352 NCL loss1: 0.4225 lp: 0.4369 le: 0.2046 val precision: 0.8825, recall: 0.8632, f1: 0.8657, acc_exp: 0.9026
+
+
+
+
+275m 10s (- 5m 36s) ([49/50] 98%), train loss1: 0.2710 val loss1: 1.9577 val origin loss 1:1.5726 avg_origin_rsd_loss: 0.7929 NCL loss1: 0.3262 lp: 0.3688 le: 0.2297 val precision: 0.8843, recall: 0.8687, f1: 0.8704, acc_exp: 0.8747
+
+
+
+
+280m 30s (- -1m 59s) ([50/50] 100%), train loss1: 0.1884 val loss1: 1.8231 val origin loss 1:2.0153 avg_origin_rsd_loss: 0.9834 NCL loss1: 0.5528 lp: 0.4454 le: 0.1170 val precision: 0.8850, recall: 0.8658, f1: 0.8685, acc_exp: 0.9568
+
+
+
+
+...finished training 
