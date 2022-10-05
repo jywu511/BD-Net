@@ -1,4 +1,4 @@
 # BD-Net
 
 
-This is the repository for our paper entitled "UASSR:Unsupervised Arbitrary Scale Super-resolution Reconstruction of Single Anisotropic 3D images via Disentangled Representation Learning", which was already acceped in MICCAI 2022.
+This is the repository for our paper entitled "Nonlinear Regression of Remaining Surgical Duration via Bayesian LSTM-Based Deep Negative Correlation Learning", which was already acceped in MICCAI 2022.
