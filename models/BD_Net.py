@@ -13,7 +13,7 @@ class MtFc(nn.Module):
         self.fc1 = nn.Linear(n_in, n_step)
         self.fc2 = nn.Linear(n_in, n_experience)
         self.fc3 = nn.Linear(n_in, n_rsd)
-        self.fc4 = nn.Linear(n_in, 1)#预测不确定度s
+        self.fc4 = nn.Linear(n_in, 1)
     def forward(self, x):
         step = self.fc1(x.clone())
         experience = self.fc2(x.clone())
@@ -43,7 +43,7 @@ class Rnn_Model1(nn.Module):
         if stateful:
             h, c = self.last_state
         else:
-            h = torch.zeros(1, self.hidden_size).cuda()   #这里的128是因为要和batch_size对应
+            h = torch.zeros(1, self.hidden_size).cuda()  
             c = torch.zeros(1, self.hidden_size).cuda()
 
         # if h.shape[0] != self.batch_size:
@@ -56,8 +56,8 @@ class Rnn_Model1(nn.Module):
 
         output = []
         for x in X:#X:[batch_size, 1, 1664]
-            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     #h, c 本来就应该是[1, 128]吧
-            output.append(h.view(1, h.size(0), -1))#第一个维度用来合并
+            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     
+            output.append(h.view(1, h.size(0), -1))
         output = torch.cat(output, 0)
         self.last_state = (h.detach(), c.detach())
         output = output.squeeze()
@@ -90,7 +90,7 @@ class Rnn_Model2(nn.Module):
         if stateful:
             h, c = self.last_state
         else:
-            h = torch.zeros(1, self.hidden_size).cuda()   #这里的128是因为要和batch_size对应
+            h = torch.zeros(1, self.hidden_size).cuda()   
             c = torch.zeros(1, self.hidden_size).cuda()
 
         # if h.shape[0] != self.batch_size:
@@ -103,8 +103,8 @@ class Rnn_Model2(nn.Module):
 
         output = []
         for x in X:#X:[batch_size, 1, 1664]
-            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     #h, c 本来就应该是[1, 128]吧
-            output.append(h.view(1, h.size(0), -1))#第一个维度用来合并
+            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))    
+            output.append(h.view(1, h.size(0), -1))
         output = torch.cat(output, 0)
         self.last_state = (h.detach(), c.detach())
         output = output.squeeze()
@@ -137,7 +137,7 @@ class Rnn_Model3(nn.Module):
         if stateful:
             h, c = self.last_state
         else:
-            h = torch.zeros(1, self.hidden_size).cuda()   #这里的128是因为要和batch_size对应
+            h = torch.zeros(1, self.hidden_size).cuda()  
             c = torch.zeros(1, self.hidden_size).cuda()
 
         # if h.shape[0] != self.batch_size:
@@ -150,8 +150,8 @@ class Rnn_Model3(nn.Module):
 
         output = []
         for x in X:#X:[batch_size, 1, 1664]
-            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     #h, c 本来就应该是[1, 128]吧
-            output.append(h.view(1, h.size(0), -1))#第一个维度用来合并
+            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))    
+            output.append(h.view(1, h.size(0), -1))
         output = torch.cat(output, 0)
         self.last_state = (h.detach(), c.detach())
         output = output.squeeze()
@@ -185,7 +185,7 @@ class Rnn_Model4(nn.Module):
         if stateful:
             h, c = self.last_state
         else:
-            h = torch.zeros(1, self.hidden_size).cuda()   #这里的128是因为要和batch_size对应
+            h = torch.zeros(1, self.hidden_size).cuda()  
             c = torch.zeros(1, self.hidden_size).cuda()
 
         # if h.shape[0] != self.batch_size:
@@ -198,8 +198,8 @@ class Rnn_Model4(nn.Module):
 
         output = []
         for x in X:#X:[batch_size, 1, 1664]
-            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     #h, c 本来就应该是[1, 128]吧
-            output.append(h.view(1, h.size(0), -1))#第一个维度用来合并
+            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))    
+            output.append(h.view(1, h.size(0), -1))
         output = torch.cat(output, 0)
         self.last_state = (h.detach(), c.detach())
         output = output.squeeze()
@@ -233,7 +233,7 @@ class Rnn_Model5(nn.Module):
         if stateful:
             h, c = self.last_state
         else:
-            h = torch.zeros(1, self.hidden_size).cuda()   #这里的128是因为要和batch_size对应
+            h = torch.zeros(1, self.hidden_size).cuda()  
             c = torch.zeros(1, self.hidden_size).cuda()
 
         # if h.shape[0] != self.batch_size:
@@ -246,8 +246,8 @@ class Rnn_Model5(nn.Module):
 
         output = []
         for x in X:#X:[batch_size, 1, 1664]
-            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))     #h, c 本来就应该是[1, 128]吧
-            output.append(h.view(1, h.size(0), -1))#第一个维度用来合并
+            h, c = self.rnn_cell(x * mask_x, (h*mask_h, c))   
+            output.append(h.view(1, h.size(0), -1))
         output = torch.cat(output, 0)
         self.last_state = (h.detach(), c.detach())
         output = output.squeeze()
@@ -384,12 +384,12 @@ class CatRSDNet1(nn.Module):
         else:
             self.set_cnn_as_feature_extractor()
             features = self.cnn(X)
-            features = features.unsqueeze(1) # 这里要把(0)改成(1)，因为我们是[128, 1, 1664]
+            features = features.unsqueeze(1)
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn1(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
 
-    #forward默认是rnn1
+    
     def forward(self, X, elapsed_time=None, stateful=False):
         """
 
@@ -436,7 +436,7 @@ class CatRSDNet1(nn.Module):
         else:
             self.set_cnn_as_feature_extractor()
             features = self.cnn(X)
-            features = features.unsqueeze(1) # 这里要把(0)改成(1)，因为我们是[128, 1, 1664]
+            features = features.unsqueeze(1) 
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn2(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
@@ -466,7 +466,7 @@ class CatRSDNet1(nn.Module):
         else:
             self.set_cnn_as_feature_extractor()
             features = self.cnn(X)
-            features = features.unsqueeze(1) # 这里要把(0)改成(1)，因为我们是[128, 1, 1664]
+            features = features.unsqueeze(1) 
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn3(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
@@ -495,7 +495,7 @@ class CatRSDNet1(nn.Module):
         else:
             self.set_cnn_as_feature_extractor()
             features = self.cnn(X)
-            features = features.unsqueeze(1) # 这里要把(0)改成(1)，因为我们是[128, 1, 1664]
+            features = features.unsqueeze(1)
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn4(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
@@ -509,7 +509,7 @@ class CatRSDNet1(nn.Module):
         else:
             assert X.shape[1] == 4, 'provide images with RGB+Timestamp if elapsed time is not set.'
             features = self.cnn(X)
-        features = features.unsqueeze(1) # go from [batch size, C] to [batch size, sequence length, C]
+        features = features.unsqueeze(1) 
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn4(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
@@ -523,7 +523,7 @@ class CatRSDNet1(nn.Module):
         else:
             self.set_cnn_as_feature_extractor()
             features = self.cnn(X)
-            features = features.unsqueeze(1) # 这里要把(0)改成(1)，因为我们是[128, 1, 1664]
+            features = features.unsqueeze(1)
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn5(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
@@ -537,7 +537,7 @@ class CatRSDNet1(nn.Module):
         else:
             assert X.shape[1] == 4, 'provide images with RGB+Timestamp if elapsed time is not set.'
             features = self.cnn(X)
-        features = features.unsqueeze(1) # go from [batch size, C] to [batch size, sequence length, C]
+        features = features.unsqueeze(1)
         step_prediction, exp_prediction, rsd_predictions, s = self.rnn5(features, stateful=stateful)
         return step_prediction, exp_prediction, rsd_predictions, s
 
