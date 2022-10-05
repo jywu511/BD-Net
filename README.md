@@ -6,4 +6,4 @@ This is the repository for our paper entitled "Nonlinear Regression of Remaining
 
 ## Inference
 
-You can download our trained model: https://sjtueducn-my.sharepoint.com/:f:/g/personal/sjtuwjy_sjtu_edu_cn/Ev4feqx0tetDrvc_LxXiGZYBLLGrqB4FUpxHRZXDSOFApA?e=BDzVqz
+You can download our trained model on [One Drive](https://sjtueducn-my.sharepoint.com/:f:/g/personal/sjtuwjy_sjtu_edu_cn/Ev4feqx0tetDrvc_LxXiGZYBLLGrqB4FUpxHRZXDSOFApA?e=BDzVqz)
