@@ -1,7 +1,7 @@
 # BD-Net
 
 
-This is the repository for our paper entitled [Nonlinear Regression of Remaining Surgical Duration via Bayesian LSTM-Based Deep Negative Correlation Learning](https://link.springer.com/chapter/10.1007/978-3-031-16449-1_40), which was already acceped in MICCAI 2022.
+This is the repository for our MICCAI 2022 paper [Nonlinear Regression of Remaining Surgical Duration via Bayesian LSTM-Based Deep Negative Correlation Learning](https://link.springer.com/chapter/10.1007/978-3-031-16449-1_40).
 
 
 ![avatar](https://github.com/jywu511/BD-Net/blob/main/BDNet.png)
